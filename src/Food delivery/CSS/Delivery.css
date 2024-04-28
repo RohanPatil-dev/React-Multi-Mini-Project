@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  box-shadow: 0px 0px 10px 0px gray;
+}
+
+.boxed{
+   height: 2000px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px 10px;
+  
+}
+
+.card-grid > div {
+  height: 400px;
+  overflow: hidden;
+}
+
+.img{
+  height: 200px;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+.img:hover{
+   transform: scale(1.2);
+}
+
+#price {
+  position: absolute;
+  margin-left: 70px;
+  padding: 10px;
+  font-size: 25px;
+  bottom: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+}
+
+.button {
+  position: absolute;
+  bottom: 10px;
+  width: 200px;
+  left: 45px;
+}
+
+#tag {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.span {
+  color: rgb(240, 34, 34);
+}
+
+.card {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.modal-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px 10px;
+}
+
+.modal-grid .card {
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.modal-grid img{
+  height: 150px;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+ }
+
+
+ .modal-grid img:hover{
+  transform: scale(1.2);
+}
